@@ -1,0 +1,24 @@
+﻿Build started 4.1.2017 21:28:25.
+     1>Project "C:\Users\Burak\documents\visual studio 2015\Projects\gann\gann\gann.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt organism.cpp
+         organism.cpp
+     1>c:\users\burak\documents\visual studio 2015\projects\gann\gann\organism.cpp(21): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\burak\documents\visual studio 2015\projects\gann\gann\organism.cpp(22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\burak\documents\visual studio 2015\projects\gann\gann\organism.cpp(24): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\burak\documents\visual studio 2015\projects\gann\gann\organism.cpp(35): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\burak\documents\visual studio 2015\projects\gann\gann\organism.cpp(36): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\burak\documents\visual studio 2015\projects\gann\gann\organism.cpp(39): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\burak\documents\visual studio 2015\projects\gann\gann\organism.cpp(40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\burak\documents\visual studio 2015\projects\gann\gann\organism.cpp(43): warning C4018: '<': signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Burak\documents\visual studio 2015\Projects\gann\Debug\gann.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Burak\documents\visual studio 2015\Projects\gann\Debug\gann.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Burak\documents\visual studio 2015\Projects\gann\Debug\gann.lib" /MACHINE:X86 Debug\ann.obj
+         Debug\graph.obj
+         Debug\main.obj
+         Debug\organism.obj
+         gann.vcxproj -> C:\Users\Burak\documents\visual studio 2015\Projects\gann\Debug\gann.exe
+     1>Done Building Project "C:\Users\Burak\documents\visual studio 2015\Projects\gann\gann\gann.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.79
